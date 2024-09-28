@@ -1,0 +1,2 @@
+Get book information from Wikipedia
+Use terminal interaction for testing, eventually create GUI

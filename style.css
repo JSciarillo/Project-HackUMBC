@@ -15,7 +15,11 @@ body {
     font-family: Arial, sans-serif;
 
     background-color: #f4f4f4;
-
+    background-image: url('brainshelf.jpg');
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #333;
 
 }
@@ -45,6 +49,7 @@ header h1 {
  
 
 .search-section {
+    opacity: 90%;
 
     margin: 20px auto;
 

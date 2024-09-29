@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brainy Bookshelf</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <!------------------------------Title------------------------------------------>
+
+        <h1>Brainy Bookshelf</h1>
+
+        <p>Sus check before you spend that paycheck</p>
+
+    </header>
+
+<!---------------------------------Search-------------------------------------------------->
+
+    <section class="search-section">
+
+        <h2>Search for Books</h2>
+
+        <form id="searchForm">
+
+            <label for="rating">Search by Rating:</label>
+
+            <select id="rating" name="rating">
+
+                <option value="all">All Ratings</option>
+
+                <option value="5">5 Stars</option>
+
+                <option value="4">4 Stars</option>
+
+                <option value="3">3 Stars</option>
+
+                <option value="2">2 Stars</option>
+
+                <option value="1">1 Star</option>
+
+            </select>
+
+ 
+
+            <label for="date">Search by Date:</label>
+
+            <input type="date" id="date" name="date">
+
+ 
+
+            <button type="submit">Search</button>
+
+        </form>
+
+    </section>
+
+ 
+
+    <section class="book-results">
+
+        <h2>Book Results</h2>
+
+        <div id="bookList">
+
+            <!-- Book results will be displayed here -->
+
+        </div>
+
+    </section>
+
+    <!--------------------------Footer-------------------------------------------------->
+
+    <footer>
+
+        <p>Brainy Bookshelf &copy; 2024</p>
+
+    </footer>
+
+    <!--------------------------Python insert--------------------------------------------->
+
+</body>
+
+</html>
